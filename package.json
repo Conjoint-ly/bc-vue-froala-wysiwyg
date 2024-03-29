@@ -1,6 +1,6 @@
 {
-  "name": "vue-froala-wysiwyg",
-  "version": "4.0.15",
+  "name": "bc-vue-froala-wysiwyg",
+  "version": "4.0.15a",
   "description": "Vue plugin for Froala WYSIWYG HTML rich text editor.",
   "author": "Froala Labs (https://www.froala.com/)",
   "license": "https://froala.com/wysiwyg-editor/terms/",
