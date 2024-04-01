@@ -37,7 +37,8 @@
     "build": "yarn run release && yarn run build:es",
     "build:es": "cross-env BABEL_ENV=es babel src --out-dir es",
     "release": "webpack --progress --hide-modules --config  ./build/webpack.release.js && webpack --progress --hide-modules --config  ./build/webpack.release.min.js",
-    "prepublish": "yarn run build"
+    "prepublish": "yarn run build",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@babel/runtime-corejs2": "^7.7.7",
