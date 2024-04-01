@@ -183,7 +183,7 @@ export default (Vue, Options = {}) => {
             return;
           }
 
-          if (self._editor.html != undefined) {
+          if (self._editor.html === undefined) {
             self._editor.html.set(self.model || '');
           }
 
