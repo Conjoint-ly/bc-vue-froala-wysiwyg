@@ -284,6 +284,10 @@ export default (Vue, Options = {}) => {
         var self = this;
 
         this.registerEvent('initialized', function () {
+          if (!self._editor) {
+            return;
+          }
+
           if (self._editor.events) {
             // bind contentChange and keyup event to froalaModel
             self._editor.events.on('contentChanged', function () {
